@@ -1,0 +1,49 @@
+/* common css  */
+body {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* fonts strat  */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* fonts   end*/
+
+/* common css  */
+
+/* header start  */
+.c_nav {
+}
+.logo {
+}
+.menu ul li a {
+}
+.menu ul li a:hover {
+}
+
+.toggler_btn:focus {
+    box-shadow: 0;
+}
+
+.btn_nav {
+}
+.btn_c {
+}
+/* header end  */

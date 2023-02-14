@@ -1,0 +1,13 @@
+
+E-School 
+
+Psd to html 
+
+-----------font----------
+poppins 400 500 700
+roboto 400
+
+----------color-------
+black: #000000;
+green: #21B573
+orange: #FD511A
