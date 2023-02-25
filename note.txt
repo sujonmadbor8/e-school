@@ -19,3 +19,6 @@ padding
 
 courses section 
 heading_c padding bottom 80px
+
+
+updated
