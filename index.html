@@ -18,20 +18,22 @@
         <!-- fontawsome  -->
         <link rel="stylesheet" href="icons/css/all.min.css" />
         <!-- responsive style  -->
-        <link rel="stylesheet" href="css/media_query.css" />
+        <link rel="stylesheet" href="css/media.css" />
     </head>
     <body>
+        <!-- header start  -->
         <header>
             <div class="container px-0">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary c_nav">
+                <nav class="navbar navbar-expand-lg c_nav">
                     <div class="container-fluid">
                         <!-- logo start  -->
                         <a class="navbar-brand" href="index.html"
                             ><img
                                 src="images/logo.png"
                                 class="img-fluid logo"
-                                alt=""
+                                alt="E-School"
                         /></a>
+                        <!-- src="images/logo.png" -->
                         <!-- logo end  -->
                         <button
                             class="navbar-toggler toggler_btn"
@@ -53,11 +55,14 @@
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a
-                                        class="nav-link active"
+                                        class="nav-link"
                                         aria-current="page"
                                         href="index.html"
                                         >Home</a
                                     >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Books</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Courses</a>
@@ -70,12 +75,12 @@
                                 </li>
                             </ul>
                             <!-- sign in button start   -->
-                            <button
-                                type="button"
-                                class="btn btn-danger btn_c btn_nav"
+                            <a
+                                href="#"
+                                class="btn btn-danger btn_c btn_nav rounded-5"
                             >
                                 Sign in
-                            </button>
+                            </a>
                             <!-- sign in button end  -->
                         </div>
                         <!-- menu end  -->
@@ -83,6 +88,257 @@
                 </nav>
             </div>
         </header>
+        <!-- header end  -->
+
+        <!-- banner start  -->
+        <section class="banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-lg-1 order-2">
+                        <div class="b_text">
+                            <p class="orange mb-0">Are you ready to Learn?</p>
+                            <h1 class="mb-0">
+                                Learn With fun on <span>any schedule</span>
+                            </h1>
+                            <p class="mb-0 padding_b">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Varius blandit facilisis quam
+                                netus.
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-danger btn_c btn_banner rounded-5"
+                            >
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-lg-2 order-1">
+                        <div class="b_image">
+                            <img
+                                class="img-fluid"
+                                src="images/banner.png"
+                                alt="E-School"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner end  -->
+
+        <!-- feature section start -->
+        <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <!-- feature item start   -->
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="f_section text-center">
+                            <div>
+                                <img
+                                    src="images/1.png"
+                                    class="img-fluid"
+                                    alt="E-School"
+                                />
+                            </div>
+                            <h2 class="mb-0">1500+ Topic</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                        <!-- feature item end -->  
+                        <!-- feature item start   -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="f_section text-center">
+                            <div>
+                                <img
+                                    src="images/2.png"
+                                    class="img-fluid"
+                                    alt="E-School"
+                                />
+                            </div>
+                            <h2 class="mb-0">1800+ Students</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                        <!-- feature item end -->  
+                        <!-- feature item start   -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="f_section text-center">
+                            <div>
+                                <img
+                                    src="images/3.png"
+                                    class="img-fluid"
+                                    alt="E-School"
+                                />
+                            </div>
+                            <h2 class="mb-0">9K+ Test Token</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                        <!-- feature item end -->  
+                        <!-- feature item start   -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="f_section text-center">
+                            <div>
+                                <img
+                                    src="images/4.png"
+                                    class="img-fluid"
+                                    alt="E-School"
+                                />
+                            </div>
+                            <h2 class="mb-0">2000+ Student</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                        <!-- feature item end -->  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature section end -->
+    <!-- courses start  -->
+    <section class="courses">
+        <div class="container">
+            <h1 class="heading_c ">Online Courses</h1>
+            <div class="row ">
+             <!-- single card start -->
+             <div class="col-lg-4  col-sm-6">
+                <div class="card card_course ">
+                  <img src="images/course_1.jpg" class="img-fluid" alt="E-School">
+                  <div class="card-body course_body p-0">
+                    <h5 class="card-title c_title m-0">Modern Psychology</h5>
+                    <p class="card-text c_text m-0">Designation</p>
+                    <a
+                    href="#"
+                    class="btn btn-danger btn_c btn_course rounded-5"
+                >
+                   Buy Course
+                </a>
+                  </div>
+                  <div class="card-footer course_footer p-0 d-flex justify-content-between">
+                      <small><i class="fa-regular fa-calendar"></i> Start 20  April, 2021</small><small><i class="fa-regular fa-user"></i> 60 seats</small>
+                  </div>
+                </div>
+              </div>
+            
+             <!-- single card end -->
+             <!-- single card start -->
+             <div class="col-lg-4 col-sm-6">
+                <div class="card card_course ">
+                  <img src="images/course_2.jpg" class="img-fluid" alt="E-School">
+                  <div class="card-body course_body p-0">
+                    <h5 class="card-title c_title m-0">Modern Psychology</h5>
+                    <p class="card-text c_text m-0">Designation</p>
+                    <a
+                    href="#"
+                    class="btn btn-danger btn_c btn_course rounded-5"
+                >
+                   Buy Course
+                </a>
+                  </div>
+                  <div class="card-footer course_footer p-0 d-flex justify-content-between">
+                      <small><i class="fa-regular fa-calendar"></i> Start 20  April, 2021</small><small><i class="fa-regular fa-user"></i> 60 seats</small>
+                  </div>
+                </div>
+              </div>
+            
+             <!-- single card end -->
+             <!-- single card start -->
+             <div class="col-lg-4 col-sm-6">
+                <div class="card card_course ">
+                  <img src="images/course_3.jpg" class="img-fluid" alt="E-School">
+                  <div class="card-body course_body p-0">
+                    <h5 class="card-title c_title m-0">Modern Psychology</h5>
+                    <p class="card-text c_text m-0">Designation</p>
+                    <a
+                    href="#"
+                    class="btn btn-danger btn_c btn_course rounded-5"
+                >
+                   Buy Course
+                </a>
+                  </div>
+                  <div class="card-footer course_footer p-0 d-flex justify-content-between">
+                      <small><i class="fa-regular fa-calendar"></i> Start 20  April, 2021</small><small><i class="fa-regular fa-user"></i> 60 seats</small>
+                  </div>
+                </div>
+              </div>
+            
+             <!-- single card end -->
+            </div>
+        </div>
+    </section>
+    <!-- courses end  -->
+
+    <!-- testimonial start  -->
+    <section class="testimonial">
+        <div class="container">
+            <h1 class="heading_c margin_b ">Testimonial</h1>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-2 col-md-3 col-sm-4" >
+                    <div class="t_img ">
+                        <img class="img-fluid" src="images/person.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-9 col-sm-8">
+                    <div>
+                        <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, 
+                           or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end  -->
+
+    <!-- terms start  -->
+    <section class="terms">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 col-12  t_text ">
+                    <p class="mb-0">Millions of people of all ages and from around
+                        the world are improving their lives with us</p>
+                </div>
+                <div class="offset-lg-1 col-lg-2 col-sm-4 col-6">
+                   <ul class="list-inline">
+                    <td ><a href="#" class="nav-link t_bold">Course</a></td>
+                    <li><a href="#" class="nav-link">Graphic Design</a></li>
+                    <li><a href="#" class="nav-link">Business</a></li>
+                    <li><a href="#" class="nav-link">Marketing</a></li>
+                    <li><a href="#" class="nav-link">Engineering</a></li>
+                   
+                   </ul>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <ul class="list-inline">
+                        <li><a href="#" class="nav-link t_bold">Terms</a></li>
+                        <li><a href="#" class="nav-link">Graphic Design</a></li>
+                        <li><a href="#" class="nav-link">Business</a></li>
+                        <li><a href="#" class="nav-link">Marketing</a></li>
+                        <li><a href="#" class="nav-link">Engineering</a></li>
+                       
+                       </ul>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <ul class="list-inline">
+                        <li><a href="#" class="nav-link t_bold">Useful Link</a></li>
+                        <li><a href="#" class="nav-link">Graphic Design</a></li>
+                        <li><a href="#" class="nav-link">Business</a></li>
+                        <li><a href="#" class="nav-link">Marketing</a></li>
+                        <li><a href="#" class="nav-link">Engineering</a></li>
+                       
+                       </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- terms end  -->
+
+    <!-- footer start  -->
+    <footer>
+        <p class="m-0">Copyright &copy; 2025 www.sujonmadbor.fun</p>
+    </footer>
+    <!-- footer end  -->
 
         <!-- bootstrap js  -->
         <script src="js/bootstrap.bundle.min.js"></script>

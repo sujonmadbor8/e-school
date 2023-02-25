@@ -1,23 +1,239 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* header start  */
+
+    .logo {
+        width: 120px;
+    }
+    /* banner start  */
+    .b_text {
+        padding: 0 13px;
+        text-align: center;
+    }
+    .b_text h1 {
+        padding: 15px 0;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .b_image {
+        padding: 0 0px 20px;
+    }
+
+    .padding_b {
+        padding-bottom: 15px;
+        line-height: 28px;
+    }
+    .btn_banner {
+        margin: 0 auto;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 20px 0 60px;
+    }
+    .f_section {
+        margin-top: 25px;
+        padding: 55px;
+    }
+    /* feature end  */
+
+    /* courses start  */
+
+    .heading_c {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    /* courses end  */
+
+    /* testimonial start  */
+    .testimonial {
+        padding: 0 0 40px 0;
+    }
+
+    .t_img {
+        margin: 25px 0 20px 0;
+        text-align: center;
+    }
+    /* testimonial end  */
+
+    /* terms start  */
+    .terms {
+        padding: 30px 0 40px 0;
+        text-align: center;
+    }
+    .t_text p {
+        padding: 0 0 16px;
+    }
+    /* terms end  */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* banner start  */
+    .b_text {
+        padding: 0 59px;
+        text-align: center;
+    }
+    .b_text h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .b_image {
+        padding: 0 80px 20px;
+    }
+
+    .padding_b {
+        padding-bottom: 15px;
+        line-height: 28px;
+    }
+    .btn_banner {
+        margin: 0 auto;
+    }
+
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 20px 0 40px;
+    }
+    .f_section {
+        margin-top: 25px;
+        padding: 50px 30px;
+    }
+    /* feature end  */
+
+    /* courses start  */
+    .heading_c {
+        margin-bottom: 0px;
+    }
+    .card_course {
+        padding: 15px 10px;
+    }
+    .c_title {
+        font-size: 20px;
+    }
+    .course_footer span {
+        font-size: 15px;
+    }
+    /* courses end  */
+
+    /* testimonial start  */
+    .testimonial {
+        padding: 0 0 60px 0;
+    }
+    .heading_c {
+        margin-bottom: 15px;
+    }
+    /* testimonial end  */
+
+    /* terms start  */
+    .terms {
+        padding: 30px 0 40px 0;
+        text-align: center;
+    }
+    .t_text p {
+        padding: 0 75px 20px;
+        line-height: 30px;
+    }
+    /* terms end  */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* banner start  */
+    .b_image {
+        padding: 0 120px 30px;
+    }
+    .b_text {
+        padding: 0 126px;
+        text-align: center;
+    }
+    .btn_banner {
+        margin: 0 auto;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 20px 0 60px;
+    }
+    .f_section {
+        margin-top: 25px;
+        padding: 55px 15px;
+    }
+    /* feature end  */
+
+    /* courses start  */
+    .testimonial {
+        padding: 0 0 60px 0;
+    }
+    .heading_c {
+        margin-bottom: 15px;
+    }
+    .courses {
+        padding: 0px 0 60px 0;
+    }
+    /* courses end  */
+
+    /* testimonial start  */
+    .heading_c {
+        margin-bottom: 40px;
+    }
+    /* testimonial end  */
+
+    /* terms start  */
+    .terms {
+        padding: 35px 0 60px 0;
+        text-align: center;
+    }
+    .t_text p {
+        padding: 0 75px 20px;
+        line-height: 30px;
+    }
+    /* terms end  */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start  */
+
+    .b_text {
+        padding: 0 138px 0 0;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .f_section {
+        padding: 50px 15px;
+    }
+    /* feature end  */
 }
 
 /* Extra large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner start  */
+
+    .b_text {
+        padding: 0 243px 0 0;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .f_section {
+        padding: 55px 35px;
+    }
+    /* feature end  */
 }
 
 /* Extra Extra  large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+    /* banner start  */
+    /* .banner {
+        padding: 60px 0 90px;
+    } */
+    .b_text {
+        padding: 0 245px 0 0px;
+    }
+    /* banner end  */
 }
